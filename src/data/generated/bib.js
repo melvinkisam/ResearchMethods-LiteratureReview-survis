@@ -22,6 +22,7 @@
         "series": "ACM",
         "title": "Badminton video analysis based on spatiotemporal and stroke features",
         "type": "inproceedings",
+        "url": "https://doi.org/10.1145/3078971.3079032",
         "year": "2017"
     },
     "ghosh2018towards": {
@@ -34,6 +35,7 @@
         "series": "WACV",
         "title": "Towards structured analysis of broadcast badminton videos",
         "type": "inproceedings",
+        "url": "https://doi.org/10.1109/WACV.2018.00039",
         "year": "2018"
     },
     "hammes2022use": {
@@ -46,6 +48,7 @@
         "series": "AISC",
         "title": "Use of Computer Vision to Automatically Predict Starting and Ending Point of a Rally in Badminton",
         "type": "inproceedings",
+        "url": "https://doi.org/10.1007/978-3-031-31772-9_11",
         "year": "2022"
     },
     "li2024videobadminton": {
@@ -58,6 +61,7 @@
         "series": "BigData",
         "title": "Videobadminton: a video dataset for badminton action recognition",
         "type": "inproceedings",
+        "url": "https://doi.org/10.1109/BigData62323.2024.10825009",
         "year": "2024"
     },
     "lin2020sportsxr": {
@@ -68,6 +72,7 @@
         "series": "ACM",
         "title": "SportsXR--Immersive Analytics in Sports",
         "type": "article",
+        "url": "https://doi.org/10.48550/arXiv.2004.08010",
         "year": "2020"
     },
     "lin2023vird": {
@@ -81,6 +86,7 @@
         "series": "TVCG",
         "title": "VIRD: Immersive match video analysis for high-performance badminton coaching",
         "type": "article",
+        "url": "https://doi.org/10.48550/arXiv.2307.12539",
         "volume": "30",
         "year": "2023"
     },
@@ -95,6 +101,7 @@
         "series": "MDPI",
         "title": "Future prediction of shuttlecock trajectory in badminton using player\u2019s information",
         "type": "article",
+        "url": "https://doi.org/10.3390/jimaging9050099",
         "volume": "9",
         "year": "2023"
     },
@@ -108,6 +115,7 @@
         "series": "AAAI",
         "title": "Shuttlenet: Position-aware fusion of rally progress and player styles for stroke forecasting in badminton",
         "type": "inproceedings",
+        "url": "https://doi.org/10.48550/arXiv.2112.01044",
         "volume": "36",
         "year": "2022"
     },
@@ -121,6 +129,7 @@
         "series": "ICARCV",
         "title": "Application of computer vision to automate notation for tactical analysis of badminton",
         "type": "inproceedings",
+        "url": "https://doi.org/10.1109/ICARCV.2014.7064329",
         "year": "2014"
     }
 };
