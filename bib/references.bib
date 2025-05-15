@@ -9,7 +9,8 @@
   series = {TVCG},
   keywords = {type:application, evaluation:user-study, evaluation:case-study, evaluation:quantitative, evaluation:qualitative, sport-analytics, immersive-analytics, data-visualization},
   abstract = {Badminton is a fast-paced sport that requires a strategic combination of spatial, temporal, and technical tactics. To gain a competitive edge at high-level competitions, badminton professionals frequently analyze match videos to gain insights and develop game strategies. However, the current process for analyzing matches is time-consuming and relies heavily on manual note-taking, due to the lack of automatic data collection and appropriate visualization tools. As a result, there is a gap in effectively analyzing matches and communicating insights among badminton coaches and players. This work proposes an end-to-end immersive match analysis pipeline designed in close collaboration with badminton professionals, including Olympic and national coaches and players. We present VIRD, a VR Bird (i.e., shuttle) immersive analysis tool, that supports interactive badminton game analysis in an immersive environment based on 3D reconstructed game views of the match video. We propose a top-down analytic workflow that allows users to seamlessly move from a high-level match overview to a detailed game view of individual rallies and shots, using situated 3D visualizations and video. We collect 3D spatial and dynamic shot data and player poses with computer vision models and visualize them in VR. Through immersive visualizations, coaches can interactively analyze situated spatial data (player positions, poses, and shot trajectories) with flexible viewpoints while navigating between shots and rallies effectively with embodied interaction. We evaluated the usefulness of VIRD with Olympic and national-level coaches and players in real matches. Results show that immersive analytics supports effective badminton match analysis with reduced context-switching costs and enhances spatial understanding with a high sense of presence.},
-  publisher={IEEE}
+  publisher={IEEE},
+  url = {https://doi.org/10.48550/arXiv.2307.12539}
 }
 
 @inproceedings{li2024videobadminton,
@@ -21,7 +22,8 @@
   series = {BigData},
   keywords = {type:dataset, evaluation:comparison, evaluation:quantitative, evaluation:qualitative},
   abstract = {In the dynamic and evolving field of computer vision, action recognition has become a key focus, especially with the advent of sophisticated methodologies like Convolutional Neural Networks (CNNs), Convolutional 3D, Transformer and spatial-temporal feature fusion. These technologies have shown promising results on well-established benchmarks but face unique challenges in real-world applications, particularly in sports analysis, where the precise decomposition of activities and the distinction of subtly different actions are crucial. Existing datasets like UCF101, HMDB51, and Kinetics have offered a diverse range of video data for various scenarios. However, there’s an increasing need for fine-grained video datasets that capture detailed categorizations and nuances within broader action categories. In this paper, we introduce the VideoBadminton dataset, which is derived from high-quality badminton footage. Through an exhaustive evaluation of leading methodologies on this dataset, this study aims to advance the field of action recognition, particularly in badminton sports. The introduction of VideoBadminton could not only serve for badminton action recognition but also provide a dataset for recognizing fine-grained actions. The insights gained from these evaluations are expected to catalyze further research in action comprehension, especially within sports contexts.},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://doi.org/10.1109/BigData62323.2024.10825009}
 }
 
 @inproceedings{hammes2022use,
@@ -33,7 +35,8 @@
   series = {AISC},
   keywords = {type:application, evaluation:comparison, evaluation:quantitative, evaluation:qualitative, computer-vision, machine-learning, badminton},
   abstract = {This paper describes an application of computer vision and machine learning methods in badminton. A tool was developed that automatically predicts the starting and ending point of the rallies. This is done based on video recordings either provided by the tv coverage or recordings of a set up camera. The output of the tool is a rally list of the match as a csv-file, which can serve as an input for match analysis tools. Within the paper, we describe the processing pipeline and evaluate the quality of the approach using a manually annotated test data set. The software reaches F1-Scores between .79 (doubles, static camera) and .91 (singles, TV coverage), what is considered as useful for practitioners.},
-  organization={Springer}
+  organization={Springer},
+  url = {https://doi.org/10.1007/978-3-031-31772-9_11}
 }
 
 @article{JMLR:v21:19-429,
@@ -59,7 +62,8 @@
   series = {ICARCV},
   keywords = {type:application, evaluation:comparison, evaluation:quantitative, evaluation:qualitative, image-processing, badminton, tactical-analysis, court-segmentation},
   abstract = {In tactical analysis of fast-paced net-based sports such as badminton, the identification of habits and movement of an opponent provides an advantage in terms of reaction time, which results in a player obtaining control of the game. A tactical analyst in badminton segments the court using imaginary lines, and intuitively notates the position of a player according to those segments throughout the game. This paper presents a computer vision based approach to automate this notational process. Motion tracking of the badminton players identifies their position throughout the game. Different court segmentation patterns are tested to identify the borders of the segments to match the intuitive segmentation performed by a badminton tactical analyst. By application of a dynamic window for assigning players to court segments, we achieve an accuracy level of above 85%.},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://doi.org/10.1109/ICARCV.2014.7064329}
 }
 
 @article{nokihara2023future,
@@ -73,7 +77,8 @@
   series = {MDPI},
   keywords = {type:application, evaluation:comparison, evaluation:quantitative, evaluation:qualitative, trajectory-prediction, sport-analytics, time-series},
   abstract = {Video analysis has become an essential aspect of net sports, such as badminton. Accurately predicting the future trajectory of balls and shuttlecocks can significantly benefit players by enhancing their performance and enabling them to devise effective game strategies. This paper aims to analyze data to provide players with an advantage in the fast-paced rallies of badminton matches. The paper delves into the innovative task of predicting future shuttlecock trajectories in badminton match videos and presents a method that takes into account both the shuttlecock position and the positions and postures of the players. In the experiments, players were extracted from the match video, their postures were analyzed, and a time-series model was trained. The results indicate that the proposed method improved accuracy by 13% compared to methods that solely used shuttlecock position information as input, and by 8.4% compared to methods that employed both shuttlecock and player position information as input.},
-  publisher={MDPI}
+  publisher={MDPI},
+  url = {https://doi.org/10.3390/jimaging9050099}
 }
 
 @inproceedings{wang2022shuttlenet,
@@ -86,7 +91,8 @@
   series = {AAAI},
   keywords = {type:application, evaluation:quantitative, evaluation:qualitative, evaluation:comparison},
   abstract = {The increasing demand for analyzing the insights in sports has stimulated a line of productive studies from a variety of perspectives, e.g., health state monitoring, outcome prediction. In this paper, we focus on objectively judging what and where to return strokes, which is still unexplored in turn-based sports. By formulating stroke forecasting as a sequence prediction task, existing works can tackle the problem but fail to model information based on the characteristics of badminton. To address these limitations, we propose a novel Position-aware Fusion of Rally Progress and Player Styles framework (ShuttleNet) that incorporates rally progress and information of the players by two modified encoder-decoder extractors. Moreover, we design a fusion network to integrate rally contexts and contexts of the players by conditioning on information dependency and different positions. Extensive experiments on the badminton dataset demonstrate that ShuttleNet significantly outperforms the state-of-the-art methods and also empirically validates the feasibility of each component in ShuttleNet. On top of that, we provide an analysis scenario for the stroke forecasting problem.},
-  year={2022}
+  year={2022},
+  url = {https://doi.org/10.48550/arXiv.2112.01044}
 }
 
 @inproceedings{ghosh2018towards,
@@ -98,7 +104,8 @@
   series = {WACV},
   keywords = {type:application, evaluation:comparison, evaluation:quantitative, evaluation:qualitative},
   abstract = {Sports video data is recorded for nearly every major tournament but remains archived and inaccessible to large scale data mining and analytics. It can only be viewed sequentially or manually tagged with higher-level labels which is time consuming and prone to errors. In this work, we propose an end-to-end framework for automatic attributes tagging and analysis of sport videos. We use commonly available broadcast videos of matches and, unlike previous approaches, does not rely on special camera setups or additional sensors. Our focus is on Badminton as the sport of interest. We propose a method to analyze a large corpus of badminton broadcast videos by segmenting the points played, tracking and recognizing the players in each point and annotating their respective badminton strokes. We evaluate the performance on 10 Olympic matches with 20 players and achieved 95.44% point segmentation accuracy, 97.38% player detection score (mAP@0.5), 97.98% player identification accuracy, and stroke segmentation edit scores of 80.48%. We further show that the automatically annotated videos alone could enable the gameplay analysis and inference by computing understandable metrics such as player's reaction time, speed, and footwork around the court, etc.},
-  organization={IEEE}
+  organization={IEEE},
+  url = {https://doi.org/10.1109/WACV.2018.00039}
 }
 
 @article{lin2020sportsxr,
@@ -108,7 +115,8 @@
   series = {ACM},
   keywords = {type:position, evaluation:none, immersive-analytics, sport-analytics, visual-analytics, data-visualization},
   abstract = {We present our initial investigation of key challenges and potentials of immersive analytics (IA) in sports, which we call SportsXR. Sports are usually highly dynamic and collaborative by nature, which makes real-time decision making ubiquitous. However, there is limited support for athletes and coaches to make informed and clear-sighted decisions in real-time. SportsXR aims to support situational awareness for better and more agile decision making in sports. In this paper, we identify key challenges in SportsXR, including data collection, in-game decision making, situated sport-specific visualization design, and collaborating with domain experts. We then present potential user scenarios in training, coaching, and fan experiences. This position paper aims to inform and inspire future SportsXR research.},
-  year={2020}
+  year={2020},
+  url = {https://doi.org/10.48550/arXiv.2004.08010}
 }
 
 @inproceedings{chu2017badminton,
@@ -119,5 +127,6 @@
   series = {ACM},
   keywords = {type:application, evaluation:comparison, evaluation:quantitative, evaluation:qualitative, badminton, stroke-classification, strategy-classification, game-statistics},
   abstract = {Most of the broadcasted sports events nowadays present game statistics to the viewers which can be used to design the gameplay strategy, improve player's performance, or improve accessing the point of interest of a sport game. However, few studies have been proposed for broadcasted badminton videos. In this paper, we integrate several visual analysis techniques to detect the court, detect players, classify strokes, and classify the player's strategy. Based on visual analysis, we can get some insights about the common strategy of a certain player. We evaluate performance of stroke classification, strategy classification, and show game statistics based on classification results.},
-  year={2017}
+  year={2017},
+  url = {https://doi.org/10.1145/3078971.3079032}
 }
